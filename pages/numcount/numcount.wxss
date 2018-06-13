@@ -1,0 +1,21 @@
+/* pages/numcont/numcount.wxss */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.listImg {
+  width: 240rpx;
+  height: 240rpx;
+}
+
+.listTitle {
+  display: block;
+  width: 240rpx;
+  height: 240rpx;
+  color: gray;
+  font-size: 28rpx;
+}

@@ -1,0 +1,8 @@
+<!--pages/numcont/numcount.wxml-->
+
+<view class='container'>
+  <view wx:for='{{ songList }}' wx:key='{{index}}' bindtap='clickList' data-id='{{ item._id }}'>
+      <image src='{{ IPRes + item.img }}' class='listImg'></image>
+      <text class='listTitle'>{{ item.title }}</text>
+  </view>
+</view>

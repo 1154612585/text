@@ -1,0 +1,7 @@
+<!--pages/song/song.wxml-->
+<view class='songContainer'>
+  <view wx:for='{{ songs.song }}' wx:key='{{index}}'  data-id='{{ item._id }}' bindtap='clickSinger'>
+      <text>{{ index+1 }}.{{ item.name }}</text>
+      <text class='singer'>-{{ item.singer }}</text>
+  </view>
+</view>

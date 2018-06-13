@@ -1,0 +1,5 @@
+/* pages/song/song.wxss */
+.singer{
+  color: gray;
+  font-size: 28rpx;
+}
